@@ -1,3 +1,4 @@
+package Perusteita1;
 import java.util.Scanner;
 
 public class Pikavippi {
