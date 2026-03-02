@@ -7,7 +7,9 @@ public class Kappale {
     private int vuosi;
     private int kesto;
 
-
+    public String getNimi(){
+        return this.nimi;
+    }
    
     public void setNimi(String nimi){
         this.nimi = nimi;
@@ -39,6 +41,10 @@ public class Kappale {
 
     @Override
     public String toString(){
-        return this.nimi;
+        if (this.artisti == null) {
+            return this.getNimi();
+        }
+        
+        return this.getNimi() + " by " + this.getArtisti();
     }
 }

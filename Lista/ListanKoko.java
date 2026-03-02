@@ -26,7 +26,7 @@ public class ListanKoko {
 
         System.out.println(); // Tyhjä rivi tulosteeseen
 
-        // TODO: Muokkaa alla olevaa koodia tehtävänannon mukaisesti
+        
         System.out.println("Yhteensä: " + lista.size());
     }
 }

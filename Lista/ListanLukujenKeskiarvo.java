@@ -29,7 +29,7 @@ public class ListanLukujenKeskiarvo {
 
         System.out.println(); // Tyhjä rivi tulosteeseen
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
+        
         double tulos =(double) summa / luvut.size();
 
         System.out.println("Keskiarvo: " + tulos); // Keskiarvoa ei tule pyöristää!

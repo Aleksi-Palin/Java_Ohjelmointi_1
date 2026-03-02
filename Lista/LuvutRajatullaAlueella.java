@@ -37,7 +37,7 @@ public class LuvutRajatullaAlueella {
             System.out.println(luvut.get(i));
         }
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
+        
 
     }
 }

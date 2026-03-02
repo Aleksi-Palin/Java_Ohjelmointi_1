@@ -28,6 +28,6 @@ public class ListanLuvut {
 
         
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
+        
     }
 }

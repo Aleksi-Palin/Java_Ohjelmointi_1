@@ -30,7 +30,7 @@ public class LoytyykoListalta {
 
         lukija.close();
 
-        // TODO: Muokkaa alla olevaa koodia tehtävänannon mukaisesti.
+        
 
         if(lista.contains(etsittava)){
             // Tulosta:

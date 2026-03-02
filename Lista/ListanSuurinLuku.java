@@ -38,7 +38,7 @@ public class ListanSuurinLuku {
         indeksi = indeksi + 1;
 }
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
+        
         System.out.println("Listan suurin luku: " + suurin);
     }
 }

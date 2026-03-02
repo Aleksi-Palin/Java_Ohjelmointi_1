@@ -29,7 +29,7 @@ public class KysytynLuvunIndeksi {
         int etsittava = lukija.nextInt();
         lukija.close();
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
+        
 
         for (int i = 0; i < luvut.size(); i++) {
             if(luvut.get(i) == etsittava){

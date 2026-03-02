@@ -28,7 +28,7 @@ public class ToisenJaKolmannenSumma {
 
         System.out.println(); // Tyhjä rivi tulosteeseen
 
-        // TODO: Muokkaa alla olevaa koodia tehtävänannon mukaisesti
+        
         int eka = luvut.get(1);
         int toka = luvut.get(2);
 

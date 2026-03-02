@@ -26,6 +26,6 @@ public class ListanViimeinenArvo {
 
         System.out.println(lista.get(lista.size() - 1)); // Tyhjä rivi tulosteeseen
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
+      
     }
 }
