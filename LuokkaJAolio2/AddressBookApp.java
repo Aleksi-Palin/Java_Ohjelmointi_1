@@ -20,9 +20,13 @@ public class AddressBookApp {
         String phone = parts[2].trim();
 
         Contact contact = new Contact(name, email, phone);
-        ab.add(contact);
-        System.out.println("Added " + contact.toString());
+        if (ab.add(contact)) {
+            System.out.println("Added " + contact.toString());
+        } else {
+            System.out.println("That contact already exists.");
+        }
     }
+        
     public static void main(String[] args) {
         AddressBookApp aba = new AddressBookApp();
         AddressBook ab = new AddressBook();
@@ -55,7 +59,7 @@ public class AddressBookApp {
                 // etsi yhteystietoa ja tulosta se
                 Contact yhteystieto = ab.search(theRest);
                 if(yhteystieto == null){
-                    System.out.println("Ville does not match any contact.");
+                    System.out.println(theRest.trim() + " does not match any contact.");
                 }else{
                     System.out.println(yhteystieto.toString());
                 }
